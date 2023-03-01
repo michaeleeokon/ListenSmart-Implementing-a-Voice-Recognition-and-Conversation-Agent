@@ -1,0 +1,18 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses":[""]},
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses":[""]},
+    {"tag": "stocks",
+      "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+      "responses":[""]},
+    {"tag": "create_note",
+    "patterns": ["Please create a new note", "New note", "Create a note", "I want to create a note"],
+    "responses":[""]},
+    {
+      "tag":"exit",
+      "patterns":["bye", "Goodbye", "quit", "stop", "I want to quit", "I want to exit", "I have to go"],
+      "responses":[""]}
+  ]}
